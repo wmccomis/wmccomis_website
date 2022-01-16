@@ -1,0 +1,44 @@
+
+
+a.nav-link{
+    color: black;
+}
+
+a.nav-link:hover{
+    color: rgb(48, 47, 47);
+
+    cursor: pointer;
+}
+
+.navbar{
+    min-height: 5vh;
+    background-color: transparent;
+}
+
+.navbar-custom{
+    background-color: transparent;
+}
+
+@media (max-width: 991px){
+  
+    .navbar-toggler{
+        position: absolute;
+        right: 2vw;
+    }
+
+    .navbar-custom{
+        background-color: white;
+    }
+
+}
+
+@media (min-width: 991px){
+  
+    .collapse{
+        position: absolute;
+        right: 2vw;
+        top: 1vh;
+    }
+    
+
+}
