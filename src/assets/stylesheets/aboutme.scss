@@ -1,0 +1,43 @@
+
+#bio_container{
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+
+    p {
+        padding-top: 20px;
+        font-size: x-large;
+    }
+
+}
+
+@media (max-width: 500px){
+
+
+
+    #bio_container{
+    
+        width: 100%;
+        
+        p{
+            font-size: 4vw;
+        }
+    }
+}
+
+
+
+#aboutme{
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        font-size: x-large;
+    }
+}

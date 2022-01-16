@@ -1,0 +1,261 @@
+
+.resume-container{
+    min-height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+
+
+.download{
+    text-align: center;
+    padding-top: 5%;
+}
+
+a.btn.btn-dark.downloadButton {
+    margin: 20px;
+}
+a.btn.btn-primary.linkedinButton {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.fa-linkedin{
+    padding-left: .04%;
+}
+
+
+.education-container{
+    column-count: 2;
+}
+
+.education{
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+//   border-bottom: 1px solid #e8e8e8;
+
+  h1 {
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  h1 span {
+    border-bottom: 3px solid #0d0aca;
+    padding-bottom: 6px;
+  }
+}
+
+.main-col {
+    padding-right: 10%;
+    padding-top: 15%;
+
+    h3 {
+        font: 25px/30px "opensans-bold", sans-serif;
+    }
+}
+
+.info {
+    font: 16px/24px "librebaskerville-italic", serif;
+    color: #6e7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+.info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.date {
+    font: 15px/24px "opensans-regular", sans-serif;
+    margin-top: 6px;
+}
+
+
+
+/**
+* Template Name: iPortfolio - v3.3.0
+* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+  
+}
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+.section-title {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume-item ul {
+  padding-left: 20px;
+}
+.resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+
+
+
+// #resume-display{
+//     height: 1100px;
+//     width: 830px;
+// }
+
+// @media (max-width: 800px){
+//     #resume-display{
+//     -moz-transform: scale(0.45, 0.45); 
+//   -webkit-transform: scale(0.45, 0.45); 
+//   -o-transform: scale(0.45, 0.45);
+//   -ms-transform: scale(0.45, 0.45);
+//   transform: scale(0.45, 0.45); 
+//   -moz-transform-origin: top left;
+//   -webkit-transform-origin: top left;
+//   -o-transform-origin: top left;
+//   -ms-transform-origin: top left;
+//   transform-origin: top left;
+//     }
+// }
