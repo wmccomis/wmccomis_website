@@ -2,7 +2,7 @@ import '../assets/stylesheets/aboutme.scss'
 
 const AboutMe = () => {
     console.log(1)
-    console.log(process.env.REACT_APP_GoogleAPIkey)
+    console.log(process.env.GoogleAPIkey)
     console.log(2)
 
     return (
