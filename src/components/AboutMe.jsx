@@ -1,6 +1,9 @@
 import '../assets/stylesheets/aboutme.scss'
 
 const AboutMe = () => {
+    console.log(1)
+    console.log(process.env.GoogleAPIkey)
+    console.log(2)
 
     return (
         <section id="aboutme">
