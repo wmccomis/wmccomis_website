@@ -9,7 +9,7 @@ import '../assets/stylesheets/flying.scss'
 const Flying = () => {
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.GoogleAPIkey 
+    googleMapsApiKey: process.env.REACT_APP_API
   });
 
   var widthVal = window.innerWidth-window.innerWidth/10;
