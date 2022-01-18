@@ -15,6 +15,15 @@ const Projects = () => {
                 </div>
                 <div className="grid">
                   <figure className="github-project">
+                      <img src="https://i.imgur.com/m0wiAUs.jpg"/>
+                      <figcaption>
+                        <h2>NDX <span>Insights</span></h2>
+                        <p>Startup focusing on developing technologies that increase aviation safety and increase FBO productivity. Developed mobile app and Aircraft Registration API</p>
+                        <p>Kotlin, Java, Python, Parse, Flask, Digital Ocean</p>
+                        <a href="https://www.youtube.com/channel/UCm3_y4l2dtPfTsrlgfzN3Gw" target="blank"></a>
+                      </figcaption>     
+                  </figure>
+                  <figure className="github-project">
                       <img src="https://i.imgur.com/X22u23s.jpg"/>
                       <figcaption>
                         <h2>Lead <span>Tracking</span></h2>
@@ -42,7 +51,7 @@ const Projects = () => {
                       </figcaption>     
                   </figure>
                   <figure className="github-project">
-                      <img src="https://i.imgur.com/RTsNyTs.jpg"/>
+                      <img src="https://i.imgur.com/UnDyuik.jpg"/>
                       <figcaption>
                         <h2>Systems <span>Programming</span></h2>
                         <p>This course taught by Professor Bui dove into the world of the Unix system through the use of Shell, Python, and C</p>
@@ -51,7 +60,7 @@ const Projects = () => {
                       </figcaption>     
                   </figure>
                   <figure className="github-project">
-                      <img src="https://i.imgur.com/9viA6fT.jpg"/>
+                      <img src="https://i.imgur.com/xzwiWWb.jpg"/>
                       <figcaption>
                         <h2>Collins <span>Aerospace</span></h2>
                         <p>Developed and Prototyped touchscreen Flight Control Panels. Also contributed to side projects related to ForeFlight integration and flight simulation</p>
@@ -60,11 +69,11 @@ const Projects = () => {
                       </figcaption>     
                   </figure>
                   <figure className="github-project">
-                      <img src="https://i.imgur.com/5CKtlHk.jpg"/>
+                      <img src="https://i.imgur.com/jN19LoU.jpg"/>
                       <figcaption>
                         <h2>YouTube <span>Channel</span></h2>
                         <p>YouTube Channel I use to showcase some fun events in my life and try to be creative</p>
-                        <p>Adobe Premiere Pro, After Effects, Photoshop</p>
+                        <p>Adobe Premiere Pro, After Effects, Photoshop, Final Cut Pro</p>
                         <a href="https://www.youtube.com/channel/UCm3_y4l2dtPfTsrlgfzN3Gw" target="blank"></a>
                       </figcaption>     
                   </figure>

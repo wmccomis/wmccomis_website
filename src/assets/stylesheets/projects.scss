@@ -37,24 +37,22 @@
 }
 
 .grid {
-  position: relative;
-  margin: auto;
-  padding: 1em 0 4em;
-  max-width: 60%;
-  min-width: 320px;
-  list-style: none;
-  text-align: center;
+  display: grid;
+  // width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
 }
 
+
 .grid figure {
+  display: flex;
   position: relative;
-  float: left;
+  float: center;
   overflow: hidden;
   margin: 10px 1%;
   min-width: 320px;
   max-width: 480px;
-  max-height: 400px;
-  width: 48%;
+  // max-height: 400px;
+  // width: 48%;
   background: #3085a3;
   text-align: center;
   cursor: pointer;
@@ -121,7 +119,7 @@
   figure.github-project {
     // background: #9e5406;
     background: black;
-    max-height: 320px;
+    // max-height: 320px;
   }
   
   figure.github-project img {
@@ -162,11 +160,11 @@
   }
   
   figure.github-project h2 {
-    padding-top: 15%;
+    padding-top: 2px;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
-    -webkit-transform: translate3d(0,20px,0);
-    transform: translate3d(0,20px,0);
+    -webkit-transform: translate3d(0,50px,0);
+    transform: translate3d(0,50px,0);
   }
   
   figure.github-project p {
@@ -174,8 +172,8 @@
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(0,20px,0);
-    transform: translate3d(0,20px,0);
+    -webkit-transform: translate3d(0,50px,0);
+    transform: translate3d(0,50px,0);
   }
   
   figure.github-project:hover figcaption::before,
@@ -192,7 +190,24 @@
     transform: translate3d(0,0,0);
   }
 
-  @media (max-width: 500px){
+  @media(max-width: 1200px){
+    .grid {
+      grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+  }
+  @media(max-width: 800px){
+    .grid {
+      grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+
+    }
+
+    figure.github-project {
+      margin: auto;
+      margin-top: 2%;
+    }
+  }
+
+  @media (max-width: 800px){
 
     .grid figure p 
     { 
