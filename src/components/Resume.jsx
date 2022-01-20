@@ -108,7 +108,7 @@ const Resume = () => {
         <div className="container download">
             {/* <p>I am still working on finishing the Resume page layout</p>
             <p>For more information, you can download my resume or view my Linkedin</p> */}
-            <a href="https://docs.google.com/document/d/1iJZgXSP8s1uz6pHucjUMD-Xey6vLm4nWyNwfzU-ILjw/export?format=pdf" className="btn btn-dark downloadButton" target="_blank"><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
+            {/* <a href="https://docs.google.com/document/d/1iJZgXSP8s1uz6pHucjUMD-Xey6vLm4nWyNwfzU-ILjw/export?format=pdf" className="btn btn-dark downloadButton" target="_blank"><FontAwesomeIcon icon={faDownload} /> Download Resume</a> */}
             <a href="https://www.linkedin.com/in/william-mccomis-346301181/" className="btn btn-primary linkedinButton" target="_blank">Linked<FontAwesomeIcon icon={faLinkedin} /></a>
         </div>  
       </div>

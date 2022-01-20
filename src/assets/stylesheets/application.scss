@@ -42,7 +42,10 @@
   // background-image: linear-gradient(grey, rgb(187, 185, 185));
   background:
 //   url(https://wmccomis-personal-site-images.s3.us-east-2.amazonaws.com/LERxax5.jpg) center center no-repeat;
-  url(https://i.imgur.com/3qkkFjQ.jpg) center center no-repeat;
+  url(https://i.imgur.com/CFTlfmz.jpg) center center no-repeat;
+  // background: linear-gradient(grey, rgb(187, 185, 185));
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(0,0,0,0.3)), to(rgba(0,0,0,1)));
   background-size: cover;
   -webkit-animation: smooth 2s ease-in;
     -moz-animation: smooth 2s ease-in;
