@@ -45,7 +45,7 @@ const Resume = () => {
               <h4>Will McComis</h4>
               <p><em>Computer Science student at the University of Notre Dame with a passion for developing cool programs that make people's lives better</em></p>
               <ul>
-                <li>(219) 798-2886</li>
+                {/* <li>Phone</li> */}
                 <li>wmccomis@nd.edu</li>
                 <li>williammccomis@gmail.com</li>
               </ul>
