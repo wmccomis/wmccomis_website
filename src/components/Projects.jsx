@@ -20,7 +20,7 @@ const Projects = () => {
                         <h2>NDX <span>Insights</span></h2>
                         <p>Startup focusing on developing technologies that increase aviation safety and increase FBO productivity. Developed mobile app and Aircraft Registration API</p>
                         <p>Kotlin, Java, Python, Parse, Flask, Digital Ocean</p>
-                        <a href="https://www.youtube.com/channel/UCm3_y4l2dtPfTsrlgfzN3Gw" target="blank"></a>
+                        <a href="https://ndxinsights.com" target="blank"></a>
                       </figcaption>     
                   </figure>
                   <figure className="github-project">
