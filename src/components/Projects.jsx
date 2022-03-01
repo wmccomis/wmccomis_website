@@ -38,7 +38,7 @@ const Projects = () => {
                         <h2>Personal <span>Website</span></h2>
                         <p>Developed this website to share my life skills and adventures</p>
                         <p>React.js, CSS, HTML, Ruby on Rails</p>
-                        <a href="https://github.com/wmccomis/personal_site" target="blank"></a>
+                        <a href="https://github.com/wmccomis/wmccomis_website" target="blank"></a>
                       </figcaption>     
                   </figure>
                   <figure className="github-project">
