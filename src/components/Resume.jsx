@@ -11,27 +11,6 @@ const Resume = () => {
   return (
     <section id="resume">
         <div className="resume-container">
-             {/* <iframe id="resume-display" src="https://docs.google.com/document/d/e/2PACX-1vRpBbbVQJ-GjAlqOeP4SdNUvGtFrL9GHTMr6nJRAESzF5wbckGH94pJbD78p4-PnJtx0bTIvYldPW57/pub?embedded=true"></iframe>
-             <h1>Resume</h1>
-             <div className="education-container">
-                 <div className="row education">
-                     <h1><span>Education</span></h1>
-                 </div>
-                 <div className="main-col">
-                     <div><h3>University of Notre Dame</h3>
-                     <p className="info">Bachelors of Science in Engineering<span>&bull;</span><em className="date">August 2019 - May 2023</em></p>
-                     <p>&bull; Major in Computer Science </p>
-                     <p>&bull; GPA: 3.967/4.00 </p>
-                     <p>&bull; Honors: Trusty Merit Scholarship</p>
-                     </div>
-                 </div>
-             </div>
-                    <p>I am still working on finishing the Resume page layout</p>
-                     <p>For more information, you can download my resume or view my Linkedin</p>
-                     <a href="https://docs.google.com/document/d/1iJZgXSP8s1uz6pHucjUMD-Xey6vLm4nWyNwfzU-ILjw/export?format=pdf" className="btn btn-dark downloadButton" target="_blank"><i className="fa fa-download"></i> Download Resume</a>
-                     <a href="https://www.linkedin.com/in/william-mccomis-346301181/" className="btn btn-primary linkedinButton" target="_blank">Linked<i className="fa fa-linkedin"></i></a> */}
-            
-        
         <div className="container">
 
         <div className="section-title">
